@@ -1,0 +1,14 @@
+{
+  "name": "appium-monorepo",
+  "version": "1.0.0",
+  "description": "Central Appium repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dan Graham",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}
