@@ -4,7 +4,9 @@
   "description": "Central Appium repository",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "shrinkwrap": "lerna exec -- npm shrinkwrap"
   },
   "author": "Dan Graham",
   "license": "Apache-2.0",
