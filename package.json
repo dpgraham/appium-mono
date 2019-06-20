@@ -4,9 +4,9 @@
   "description": "Central Appium repository",
   "main": "index.js",
   "scripts": {
-    "test": "lerna run test",
-    "build": "lerna run build",
-    "shrinkwrap": "lerna exec -- npm shrinkwrap"
+    "test": "npx lerna run test",
+    "build": "npx lerna run build",
+    "shrinkwrap": "npx lerna exec -- npm shrinkwrap"
   },
   "author": "Dan Graham",
   "license": "Apache-2.0",
