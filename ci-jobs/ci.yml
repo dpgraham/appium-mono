@@ -1,0 +1,14 @@
+jobs:
+  - job: UniTest
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: 12.x
+    - script: |
+        npm install
+        npx lerna bootstrap
+      displayName: Bootstrap
+    - script: npm run build
+      displayName: Build all packages
+    - script: npm test
+      displayName: Run Tests
