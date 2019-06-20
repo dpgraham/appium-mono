@@ -1,5 +1,5 @@
 {
-  "name": "appium-monorepo",
+  "private": true,
   "version": "1.0.0",
   "description": "Central Appium repository",
   "main": "index.js",
